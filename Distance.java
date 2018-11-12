@@ -1,4 +1,4 @@
-import java.util.Scanner;
+package com.bridgelabz.functionalprograms;
 
 public class Distance {
 
@@ -27,3 +27,4 @@ public class Distance {
 	}
 
 }
+

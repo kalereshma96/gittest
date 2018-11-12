@@ -1,57 +1,23 @@
-import java.util.Scanner;
+package com.bridgelabz.functionalprograms;
 
-public class Harmonic {
 
-	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+import com.bridgelabz.utility.Utility;
 
-		int n;
-		double result = 0, no = 0, i;
 
-		Scanner scan = new Scanner(System.in);
 
-		System.out.println("enter the harmonic no u want to find");
-		n = scan.nextInt();
+		public class Harmonic {
 
-		
-	/*	if(no==0) {
+			public static void main(String[] args) {
+				// initializing variables
+
 			
-		 	for (i = 1; i <= n; i++) {
-
-				no = no + (1 / i);
-				result = no;
-      
-			}
-		 	
-			System.out.println("enter no greater than 0");
-		}
-			
+				int n;	
+				Utility utility = new Utility();
+				System.out.println("enter the harmonic no u want to find:");				
+				n=utility.inputInteger();
+		        utility.harmonic(n);
 		
-			System.out.println("value of harmonic no:" + n + " is " + result);
-		}
-	
-
-}*/
 		
-     if(no!=0) 
-    	 
-    	 
-     {
-    	 
-			   System.out.println("enter no greater than 0");
+	}
 
-		}
-     else
-     {
-    	 for (i = 1; i <= n; i++) 
-
-				no = no + (1 / i);{
-				result = no;
-			} 	
-				
-		System.out.println("value of harmonic no:" + n + " is " + result);
-		}
- 
-
-     }
 }
